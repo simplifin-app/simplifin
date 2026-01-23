@@ -1,7 +1,11 @@
 <template>
   <div class="layout-container">
     <header>
-      <h1>Meine Webseite</h1>
+      <div class="logo-container">
+        <div class="logo-placeholder"></div>
+        <span class="site-title">Meine Webseite</span>
+      </div>
+      
       <nav>
         <ul>
           <li><NuxtLink to="/">Home</NuxtLink></li>
@@ -9,6 +13,8 @@
           <li><NuxtLink to="/contact">Kontakt</NuxtLink></li>
         </ul>
       </nav>
+
+      <div class="header-right"></div>
     </header>
 
     <main class="content">
