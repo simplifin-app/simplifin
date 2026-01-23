@@ -13,16 +13,19 @@ npm install
 ## Database Setup
 
 1. Create a `.env` file with your PostgreSQL connection string:
+
 ```bash
 DATABASE_URL=postgresql://test:test@10.3.44.17:5432/simplifin
 ```
 
 2. Push the schema to create tables:
+
 ```bash
 npm run db:push
 ```
 
 3. (Optional) View and manage tables:
+
 ```bash
 npm run db:studio
 ```
