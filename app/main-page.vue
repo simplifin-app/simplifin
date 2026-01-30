@@ -268,7 +268,8 @@ const removeItem = (categoryList, catIndex, itemIndex) => {
                 negative: totalIncome < totalExpenses,
               }"
             >
-              Differenz: {{ (totalIncome - totalExpenses).toLocaleString('de-CH') }} CHF
+              Differenz:
+              {{ (totalIncome - totalExpenses).toLocaleString('de-CH') }} CHF
             </p>
           </div>
         </div>
@@ -310,7 +311,7 @@ body {
 .category-group h3 {
   margin-top: 0;
   font-size: 1rem;
-  color: #499FF3;
+  color: #499ff3;
   border-bottom: 2px solid #f4f4f9;
   padding-bottom: 8px;
   margin-bottom: 12px;
@@ -332,7 +333,7 @@ body {
 
 .input-row input:focus {
   outline: none;
-  border-color: #499FF3;
+  border-color: #499ff3;
 }
 
 .input-row input[type='text'] {
@@ -346,7 +347,7 @@ body {
 }
 
 .remove-btn {
-  background: #F39D49;
+  background: #f39d49;
   color: white;
   border: none;
   border-radius: 6px;
@@ -361,8 +362,8 @@ body {
 
 .add-btn {
   background: #f8f9fa;
-  color: #499FF3;
-  border: 2px dashed #499FF3;
+  color: #499ff3;
+  border: 2px dashed #499ff3;
   border-radius: 6px;
   padding: 8px 12px;
   cursor: pointer;
@@ -373,7 +374,7 @@ body {
 }
 
 .add-btn:hover {
-  background: #499FF3;
+  background: #499ff3;
   color: white;
 }
 
@@ -403,10 +404,10 @@ body {
 }
 
 .positive {
-  color: #499FF3;
+  color: #499ff3;
 }
 .negative {
-  color: #F39D49;
+  color: #f39d49;
 }
 
 @media (max-width: 1024px) {

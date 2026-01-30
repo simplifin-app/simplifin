@@ -1,0 +1,84 @@
+:root {
+  --color-blue: #499ff3;
+  --color-pink: #f249f3;
+  --color-orange: #f39d49;
+  --color-green: #4af349;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--color-blue);
+  padding: 0 1.5rem;
+  color: white;
+  min-height: 60px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-placeholder {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-pink);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+.site-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav {
+  grid-column: 2;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--color-green);
+}
+
+.header-right {
+  /* Empty div to balance the grid for centering */
+}
+
+footer {
+  background-color: var(--color-orange);
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto; /* Changed from fixed to flex-based bottom */
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
