@@ -1,7 +1,9 @@
 <template>
   <div>
     <h2>Willkommen auf der Startseite</h2>
-    <p class="highlight-text">Dies ist ein Beispieltext in der angeforderten Struktur.</p>
+    <p class="highlight-text">
+      Dies ist ein Beispieltext in der angeforderten Struktur.
+    </p>
   </div>
 </template>
 

@@ -1,8 +1,8 @@
 :root {
-  --color-blue: #499FF3;
-  --color-pink: #F249F3;
-  --color-orange: #F39D49;
-  --color-green: #4AF349;
+  --color-blue: #499ff3;
+  --color-pink: #f249f3;
+  --color-orange: #f39d49;
+  --color-green: #4af349;
 }
 
 body {
@@ -10,7 +10,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 header {
   background-color: var(--color-blue);

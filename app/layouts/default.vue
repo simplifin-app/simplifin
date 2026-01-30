@@ -5,7 +5,7 @@
         <div class="logo-placeholder"></div>
         <span class="site-title">Meine Webseite</span>
       </div>
-      
+
       <nav>
         <ul>
           <li><NuxtLink to="/">Home</NuxtLink></li>
