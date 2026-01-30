@@ -1,23 +1,7 @@
-<script setup lang="ts">
-import TestComponent from '~/TestComponent.vue'
-
-function myHandler() {}
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div id="my-app">
-    <TestComponent name="Thomas" @clicked="myHandler">
-      Test
-      <input />
-    </TestComponent>
-    <TestComponent>Some other text</TestComponent>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
-
-<style scoped>
-#my-app {
-  background-color: lightblue;
-  height: 100%;
-  display: flex;
-}
-</style>
